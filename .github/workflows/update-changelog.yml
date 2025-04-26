@@ -54,7 +54,11 @@ jobs:
         
       - name: Extract release notes
         id: extract-release-notes
-        run: echo -e "${{needs.changelog.outputs.notes}}" | awk '/##/ {flag=1; next} flag && NF {print; flag=2} flag==2'    
+        run: |
+          NOTES=$(echo -e "${{ needs.changelog.outputs.notes }}" | awk '/##/ {flag=1; next} flag && NF {print; flag=2} flag==2')
+          echo "notes<<EOF" >> $GITHUB_OUTPUT
+          echo "$NOTES" >> $GITHUB_OUTPUT
+          echo "EOF" >> $GITHUB_OUTPUT    
 
       - name: Create Release
         run: gh release create ${{ inputs.version }} --notes "${{steps.extract-release-notes.outputs}}"
