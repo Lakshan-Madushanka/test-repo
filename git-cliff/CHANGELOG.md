@@ -6,9 +6,10 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [2.5.6] - 2025-04-26
+## [3.0.0] - 2025-04-26
 
 ### Changed
-- Update CHANGELOG by [@Lakshan-Madushanka](https://github.com/Lakshan-Madushanka) in ([13894c3](https://github.com/Lakshan-Madushanka/test-repo/commit/13894c325839cb6d914f71c60e7a5ba069ce8b44))
-- 1 commmit by [@Lakshan-Madushanka](https://github.com/Lakshan-Madushanka) in ([c1d9b38](https://github.com/Lakshan-Madushanka/test-repo/commit/c1d9b38ba7aed298ac23df68fc72ca1bef83f16a))
+- Update CHANGELOG by [@Lakshan-Madushanka](https://github.com/Lakshan-Madushanka) in ([37a96d3](https://github.com/Lakshan-Madushanka/test-repo/commit/37a96d3ea399c89b8a7537f1ba13a507690b158a))
+- Merge branch 'main' of https://github.com/Lakshan-Madushanka/test-repo by [@Lakshan-Madushanka](https://github.com/Lakshan-Madushanka) in ([31676c5](https://github.com/Lakshan-Madushanka/test-repo/commit/31676c5273004c7eb1f9f9b299c0991101406f74))
+- 11 commmit by [@Lakshan-Madushanka](https://github.com/Lakshan-Madushanka) in ([5b3887f](https://github.com/Lakshan-Madushanka/test-repo/commit/5b3887f10de81ed55a24a21ddafba1a23c2a1c8e))
 
