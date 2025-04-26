@@ -61,6 +61,6 @@ jobs:
           echo "EOF" >> $GITHUB_OUTPUT    
 
       - name: Create Release
-        run: gh release create ${{ inputs.version }} --notes "${{steps.extract-release-notes.outputs}}"
+        run: gh release create ${{ inputs.version }} --notes "${{steps.extract-release-notes.outputs.notes}}"
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
