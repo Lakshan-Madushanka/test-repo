@@ -1,9 +1,12 @@
-name: 'Update Changelog'
+name: 'Release a new version'
 
 on:
-  release:
-    types: [released]
   workflow_dispatch:
+    inputs:
+      version:
+        description: 'Version to release'
+        required: true
+
 
 permissions:
   contents: write
