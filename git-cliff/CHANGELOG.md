@@ -6,9 +6,10 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [Unreleased]
+## [1.0.0] - 2025-04-26
 
 ### Changed
+- Update CHANGELOG by [@Lakshan-Madushanka](https://github.com/Lakshan-Madushanka) in ([5722487](https://github.com/Lakshan-Madushanka/test-repo/commit/57224876beba6524a4f267c53ea28662c7d1dce7))
 - 9rd commmit by [@Lakshan-Madushanka](https://github.com/Lakshan-Madushanka) in ([becbbc7](https://github.com/Lakshan-Madushanka/test-repo/commit/becbbc7f8417f48428f252b196e7ecb333f82c66))
 - 8 commmit by [@Lakshan-Madushanka](https://github.com/Lakshan-Madushanka) in ([462d8d7](https://github.com/Lakshan-Madushanka/test-repo/commit/462d8d702f7d47274e6040b3f81d71f6f93ed2c0))
 - 7 commmit by [@Lakshan-Madushanka](https://github.com/Lakshan-Madushanka) in ([9b3bb55](https://github.com/Lakshan-Madushanka/test-repo/commit/9b3bb558b4420c155deefa9c33f12896d830bce0))
