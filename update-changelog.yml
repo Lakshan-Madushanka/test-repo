@@ -49,10 +49,14 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      - name: Extract release notes
+        id: extract-release-notes
+        run: echo -e "${{needs.changelog.outputs.notes}}" | awk '/##/ {flag=1; next} flag && NF {print; flag=2} flag==2'
+      
       - name: Checkout repository
         uses: actions/checkout@v4
 
       - name: Create Release
-        run: gh release create ${{ inputs.version }} --notes "${{needs.changelog.outputs.notes}}"
+        run: gh release create ${{ inputs.version }} --notes "${{steps.extract-release-notes.outputs}}"
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
