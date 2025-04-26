@@ -55,7 +55,7 @@ jobs:
       - name: Extract release notes
         id: extract-release-notes
         run: |
-          NOTES=$(echo -e "${{ needs.changelog.outputs.notes }}" | awk '/##/ {flag=1} flag')
+          NOTES=$(echo -e "${{ needs.changelog.outputs.notes }}" | awk '/###/ {flag=1} flag')
           echo "notes<<EOF" >> $GITHUB_OUTPUT
           echo "$NOTES" >> $GITHUB_OUTPUT
           echo "EOF" >> $GITHUB_OUTPUT    
